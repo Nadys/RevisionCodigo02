@@ -13,9 +13,9 @@
   <h2>Por favor, confirmar asistencia:</h2>
 
   <form class="formulario">
-    Nombre <input type="text" name="name" id="name">
+    <input placeholder="Nombre"  <input type="text" name="name" id="name">
     <br />
-    Edad <input type="number" name="age" id="age">
+    <input placeholder="Edad" type="number" name="age" id="age">
     <br />
 
     Nacionalidad
@@ -26,12 +26,13 @@
       <option value="vnzl">Venezolana</option>
     </select>
     <br />
-    <input type="submit">
+    <button type="submit">Agregar invitado</button>
   </form>
 
   <div>
     <h2>Lista de invitados</h2>
-
+    <div id="lista-de-invitados">   </div>
+   
   </div>
 
   <script src="../formulario.js"></script>
